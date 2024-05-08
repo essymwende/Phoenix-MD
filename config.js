@@ -10,17 +10,17 @@ let HANDLER = "false";
 
 module.exports = {
   //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
-  ANTILINK: toBool(process.env.ANTI_LINK) || false,
+  ANTILINK: toBool(process.env.ANTI_LINK) || true,
   //_________________________________________________________________________________________________________________________________
   LOGS: toBool(process.env.LOGS) || true,
   //_________________________________________________________________________________________________________________________________
   ANTILINK_ACTION: process.env.ANTI_LINK || "kick",
   //_________________________________________________________________________________________________________________________________
-  AUTO_REACT: process.env.AUTO_REACT || 'false',
+  AUTO_REACT: process.env.AUTO_REACT || 'true',
   //_________________________________________________________________________________________________________________________________
   AUDIO_DATA: process.env.AUDIO_DATA || "Phoenix-MD;Abhishek Suresh;https://graph.org/file/8976892f2f615077b48cd.jpg",
   //_________________________________________________________________________________________________________________________________
-  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'false',
+  AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   //_________________________________________________________________________________________________________________________________
   SESSION_ID: process.env.SESSION_ID || "Phoenix~f04e94e508a0ec27fb61a26bcf9608ed", //Enter Your Session Id Here
   //_________________________________________________________________________________________________________________________________
